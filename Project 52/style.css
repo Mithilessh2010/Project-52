@@ -1,0 +1,66 @@
+a:link {
+    color: white
+    }
+    a:visited{
+        color:white
+    }
+
+/* * {
+    border: solid;
+} */
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background-color: #000000;
+    padding: 15px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.grid{
+    /* border: 2px solid black; */
+    border-radius: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-self: center;
+}
+
+.origami{
+    border-radius: 20px;
+    background-color: #ffffff;
+    border: 2px solid #000000;
+    padding: 30px;
+    margin: 25px;
+    width: 250px;
+    font-family: fantasy;
+    position: relative;
+}
+/* 
+.origami p{
+    position: absolute;
+} */
+
+.origami:hover{
+    transform: scale(1.2);
+}
+
+.bodyimg {
+    color: white;
+    background-image: url('https://cutewallpaper.org/21/cool-black-backrounds/Cool-Black-Background-Designs-47-images-.jpg');
+    background-size: 600px 100%;
+
+}
+
+.intro {
+        display: flex;
+    justify-content: center;
+}
+
+.introtitle{
+    display: flex;
+    justify-content: center;
+}
